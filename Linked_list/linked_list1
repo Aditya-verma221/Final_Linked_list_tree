@@ -12,6 +12,7 @@ void insert(int);
 void insend(int);
 void display(struct node *);
 void insord(int , int );
+void delete(int );
 int count;
 
 
@@ -48,9 +49,6 @@ void main()
     display(first);
     //printf("%d",count);
 }
-
-
-
 
 void insert(int x){
     struct node* new;
